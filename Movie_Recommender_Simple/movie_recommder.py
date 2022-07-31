@@ -4,10 +4,13 @@
 # Unsupervised learning, will rely on the IMDB dataset containing movies from 2006 to 2016
 # Dataset citation: F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4: 19:1–19:19. <https://doi.org/10.1145/2827872
 
+# Import the necessary python modules and libraries
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+# Read our movies csv file and turn it into a dataframe
+# Contains movie metadata from IMDB
 IMDB_MOVIES = "IMDB-Movie-Data.csv"
 movies = pd.read_csv(IMDB_MOVIES, header=0, dtype=str)
 movies['Movie_ID'] = range(0, 1000)
