@@ -1,2 +1,2 @@
 # Python_Machine_Learning
-This repository contains the code/explanation for some of the top machine learning algorithms using Python
+This is a general repository that features most of the basics and fundamentals of machine learning including some implementations of the more popular machine learning algorithms using only the numpy library of python. This repository also features some side projects, a movie and anime recommendation system, that attempt to utilize the core concepts of machine learning to successfully predict good recommendations based on the input passed in. Lastly, this repository also features some work done on tensorflow that explores further the realms of artificial intelligence, machine learning, and neural networks/deep learning. 
